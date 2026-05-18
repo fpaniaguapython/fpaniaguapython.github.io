@@ -1,73 +1,73 @@
-mes,genero,cantidad_peliculas,visualizaciones,puntuacion_promedio
-Enero,Acción,12,2450,7.8
-Enero,Drama,8,"dos mil",8.2
-Enero,Comedia,10,,7.5
-Enero,Ciencia Ficción,"6",1200,10.3
-Enero,Terror,5,980,7
-Enero,Romance,7,1320,7.9
-Febrero,Acción,14,2680,7.9
-Febrero,Drama,9,2050,8.3
-Febrero,Comedia,11,1890,7.6
-Febrero,Ciencia Ficción,7,1380,8.2
-Febrero,Terror,4,850,7.1
-Febrero,Romance,8,1550,8.0
-Marzo,Acción,13,2520,7.7
-Marzo,Drama,10,2210,8.4
-Marzo,Comedia,12,2100,7.7
-Marzo,Ciencia Ficción,8,1620,8.3
-Marzo,Terror,6,1120,7.4
-Marzo,Romance,9,1780,8.1
-Abril,Acción,15,2890,8.0
-Abril,Drama,11,2380,8.5
-Abril,Comedia,13,2280,7.8
-Abril,Ciencia Ficción,9,1850,8.4
-Abril,Terror,7,1350,7.5
-Abril,Romance,10,1920,8.2
-Mayo,Acción,16,3150,8.1
-Mayo,Drama,12,2620,8.6
-Mayo,Comedia,14,2450,7.9
-Mayo,Ciencia Ficción,10,2050,8.5
-Mayo,Terror,8,1580,7.6
-Mayo,Romance,11,2150,8.3
-Junio,Acción,18,3420,8.2
-Junio,Drama,11,2450,8.4
-Junio,Comedia,15,2680,8.0
-Junio,Ciencia Ficción,11,2280,8.6
-Junio,Terror,9,1750,7.7
-Junio,Romance,10,2050,8.1
-Julio,Acción,20,3680,8.3
-Julio,Drama,10,2280,8.3
-Julio,Comedia,16,2850,8.1
-Julio,Ciencia Ficción,12,2520,8.7
-Julio,Terror,10,1980,7.8
-Julio,Romance,9,1820,8.0
-Agosto,Acción,19,3450,8.2
-Agosto,Drama,12,2650,8.5
-Agosto,Comedia,17,2980,8.2
-Agosto,Ciencia Ficción,11,2350,8.6
-Agosto,Terror,9,1750,7.7
-Agosto,Romance,10,2120,8.2
-Septiembre,Acción,17,3220,8.1
-Septiembre,Drama,13,2880,8.6
-Septiembre,Comedia,14,2480,7.9
-Septiembre,Ciencia Ficción,10,2150,8.5
-Septiembre,Terror,8,1520,7.6
-Septiembre,Romance,11,2250,8.3
-Octubre,Acción,15,2950,8.0
-Octubre,Drama,12,2720,8.5
-Octubre,Comedia,12,2220,7.8
-Octubre,Ciencia Ficción,9,1920,8.4
-Octubre,Terror,10,2050,7.9
-Octubre,Romance,9,1850,8.1
-Noviembre,Acción,14,2780,7.9
-Noviembre,Drama,13,2950,8.7
-Noviembre,Comedia,11,2050,7.7
-Noviembre,Ciencia Ficción,8,1680,8.3
-Noviembre,Terror,7,1420,7.5
-Noviembre,Romance,10,2180,8.4
-Diciembre,Acción,16,3200,8.1
-Diciembre,Drama,14,3150,8.8
-Diciembre,Comedia,13,2350,7.8
-Diciembre,Ciencia Ficción,10,2220,8.6
-Diciembre,Terror,6,1200,7.4
-Diciembre,Romance,12,2450,8.5
+mes,genero,cantidad_peliculas,visualizaciones,puntuacion_promedio,fecha_estreno
+Enero,Acción,12,2450,7.8,01/01/2026
+Enero,Drama,8,"dos mil",8.2,01/01/2026
+Enero,Comedia,10,,7.5,01/01/2026
+Enero,Ciencia Ficción,"6",1200,10.3,01/01/2026
+Enero,Terror,5,980,7,01/01/2026
+Enero,Romance,7,1320,7.9,01/01/2026
+Febrero,Acción,14,2680,7.9,01/02/2026
+Febrero,Drama,9,2050,8.3,01/02/2026
+Febrero,Comedia,11,1890,7.6,01/02/2026
+Febrero,Ciencia Ficción,7,1380,8.2,01/02/2026
+Febrero,Terror,4,850,7.1,01/02/2026
+Febrero,Romance,8,1550,8.0,01/02/2026
+Marzo,Acción,13,2520,7.7,01/03/2026
+Marzo,Drama,10,2210,8.4,01/03/2026
+Marzo,Comedia,12,2100,7.7,01/03/2026
+Marzo,Ciencia Ficción,8,1620,8.3,01/03/2026
+Marzo,Terror,6,1120,7.4,01/03/2026
+Marzo,Romance,9,1780,8.1,01/03/2026
+Abril,Acción,15,2890,8.0,01/04/2026
+Abril,Drama,11,2380,8.5,01/04/2026
+Abril,Comedia,13,2280,7.8,01/04/2026
+Abril,Ciencia Ficción,9,1850,8.4,01/04/2026
+Abril,Terror,7,1350,7.5,01/04/2026
+Abril,Romance,10,1920,8.2,01/04/2026
+Mayo,Acción,16,3150,8.1,01/05/2026
+Mayo,Drama,12,2620,8.6,01/05/2026
+Mayo,Comedia,14,2450,7.9,01/05/2026
+Mayo,Ciencia Ficción,10,2050,8.5,01/05/2026
+Mayo,Terror,8,1580,7.6,01/05/2026
+Mayo,Romance,11,2150,8.3,01/05/2026
+Junio,Acción,18,3420,8.2,01/06/2026
+Junio,Drama,11,2450,8.4,01/06/2026
+Junio,Comedia,15,2680,8.0,01/06/2026
+Junio,Ciencia Ficción,11,2280,8.6,01/06/2026
+Junio,Terror,9,1750,7.7,01/06/2026
+Junio,Romance,10,2050,8.1,01/06/2026
+Julio,Acción,20,3680,8.3,01/07/2026
+Julio,Drama,10,2280,8.3,01/07/2026
+Julio,Comedia,16,2850,8.1,01/07/2026
+Julio,Ciencia Ficción,12,2520,8.7,01/07/2026
+Julio,Terror,10,1980,7.8,01/07/2026
+Julio,Romance,9,1820,8.0,01/07/2026
+Agosto,Acción,19,3450,8.2,01/08/2026
+Agosto,Drama,12,2650,8.5,01/08/2026
+Agosto,Comedia,17,2980,8.2,01/08/2026
+Agosto,Ciencia Ficción,11,2350,8.6,01/08/2026
+Agosto,Terror,9,1750,7.7,01/08/2026
+Agosto,Romance,10,2120,8.2,01/08/2026
+Septiembre,Acción,17,3220,8.1,01/09/2026
+Septiembre,Drama,13,2880,8.6,01/09/2026
+Septiembre,Comedia,14,2480,7.9,01/09/2026
+Septiembre,Ciencia Ficción,10,2150,8.5,01/09/2026
+Septiembre,Terror,8,1520,7.6,01/09/2026
+Septiembre,Romance,11,2250,8.3,01/09/2026
+Octubre,Acción,15,2950,8.0,01/10/2026
+Octubre,Drama,12,2720,8.5,01/10/2026
+Octubre,Comedia,12,2220,7.8,01/10/2026
+Octubre,Ciencia Ficción,9,1920,8.4,01/10/2026
+Octubre,Terror,10,2050,7.9,01/10/2026
+Octubre,Romance,9,1850,8.1,01/10/2026
+Noviembre,Acción,14,2780,7.9,01/11/2026
+Noviembre,Drama,13,2950,8.7,01/11/2026
+Noviembre,Comedia,11,2050,7.7,01/11/2026
+Noviembre,Ciencia Ficción,8,1680,8.3,01/11/2026
+Noviembre,Terror,7,1420,7.5,01/11/2026
+Noviembre,Romance,10,2180,8.4,01/11/2026
+Diciembre,Acción,16,3200,8.1,01/12/2026
+Diciembre,Drama,14,3150,8.8,01/12/2026
+Diciembre,Comedia,13,2350,7.8,01/12/2026
+Diciembre,Ciencia Ficción,10,2220,8.6,01/12/2026
+Diciembre,Terror,6,1200,7.4,01/12/2026
+Diciembre,Romance,12,2450,8.5,01/12/2026
