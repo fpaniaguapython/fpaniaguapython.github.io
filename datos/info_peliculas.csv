@@ -1,0 +1,100 @@
+año,titulo,genero,director,presupuesto_musd,taquilla_musd,fecha_estreno
+2016,Sombra Final,Acción,Alejandro Ruiz,94,820,2016-02-14
+2017,Ciudad de Cristal,Drama,Lucía Herrera,101,145,2017-05-21
+2018,Órbita Roja,Ciencia Ficción,Carlos Méndez,98,1320,2018-07-11
+2019,El Último Horizonte,Aventura,Sofía Navarro,103,75,2019-10-03
+2020,Niebla Eterna,Suspenso,Daniel Ortega,96,410,2020-01-24
+2021,Corazón Salvaje,Romance,Marina Campos,99,980,2021-04-17
+2022,Imperio Solar,Fantasía,Javier León,100,2150,2022-12-09
+2023,La Ruta Perdida,Aventura,Elena Vidal,97,62,2023-06-28
+2024,Destino Azul,Drama,Ricardo Paredes,102,540,2024-09-15
+2025,Código Infinito,Ciencia Ficción,Patricia Gil,95,1840,2025-11-02
+2026,Tiempo Oscuro,Suspenso,Fernando Ríos,99,310,2026-03-08
+2016,Mar de Cenizas,Drama,Ana Fuentes,96,128,2016-08-19
+2017,La Fortaleza Perdida,Acción,Hugo Molina,100,1540,2017-12-01
+2018,Vuelo Nocturno,Thriller,Clara Santos,97,215,2018-04-13
+2019,Horizonte de Fuego,Ciencia Ficción,Raúl Vega,101,1940,2019-07-22
+2020,El Eco del Silencio,Drama,Irene Castro,98,58,2020-11-30
+2021,Luna de Hierro,Fantasía,Tomás Prieto,102,1260,2021-01-16
+2022,Ruta Salvaje,Aventura,Nuria Delgado,95,470,2022-05-27
+2023,Alma de Acero,Acción,Diego Serrano,99,2020,2023-08-10
+2024,Sombras del Norte,Suspenso,Beatriz Cano,94,91,2024-10-05
+2025,El Portal Secreto,Fantasía,Miguel Lara,100,1710,2025-06-12
+2026,Cielo de Arena,Aventura,Laura Peña,103,350,2026-09-21
+2016,La Última Ciudad,Ciencia Ficción,Álvaro Núñez,97,2220,2016-03-11
+2017,Río Oscuro,Drama,Cristina Vidal,101,76,2017-07-07
+2018,Guardianes del Alba,Acción,Esteban Flores,98,1450,2018-11-23
+2019,El Viaje Eterno,Aventura,Paula Méndez,96,610,2019-02-18
+2020,Memoria Fragmentada,Thriller,Gabriel Soto,99,180,2020-06-26
+2021,Tormenta Solar,Ciencia Ficción,Alicia Romero,102,1995,2021-12-14
+2022,La Casa Vacía,Terror,Ramón Iglesias,95,83,2022-01-30
+2023,Reino Perdido,Fantasía,Verónica Campos,101,1650,2023-04-08
+2024,Nexo Mortal,Suspenso,Óscar Prieto,97,260,2024-07-17
+2025,La Isla Invisible,Aventura,Celia Navarro,100,1340,2025-09-03
+2026,Operación Centella,Acción,Jorge Salas,98,2090,2026-11-19
+2016,El Pacto,Drama,Teresa León,103,72,2016-05-25
+2017,Código Delta,Thriller,Andrés Gil,96,520,2017-10-09
+2018,La Frontera Azul,Ciencia Ficción,Silvia Mora,99,1880,2018-01-28
+2019,Corredor Fantasma,Suspenso,Felipe Cruz,100,144,2019-04-04
+2020,El Reino Helado,Fantasía,Lidia Ortega,95,1120,2020-08-15
+2021,Destino Final,Acción,Emilio Navarro,101,2040,2021-03-01
+2022,Las Horas Perdidas,Drama,Marta Vega,97,66,2022-06-18
+2023,El Despertar,Terror,César Rojas,102,340,2023-11-24
+2024,Planeta Rojo,Ciencia Ficción,Julia Peña,99,2190,2024-02-09
+2025,Sombras del Pasado,Drama,Roberto Vidal,94,125,2025-05-14
+2026,La Ruta del Viento,Aventura,Noelia Castro,100,860,2026-08-27
+2016,Infinito Azul,Ciencia Ficción,David Herrera,98,1760,2016-09-12
+2017,La Muralla Negra,Acción,Sandra Molina,103,245,2017-01-17
+2018,El Refugio,Terror,Pablo Santos,96,94,2018-06-29
+2019,Tiempo de Guerra,Drama,Adrián Fuentes,99,1430,2019-10-20
+2020,La Noche Eterna,Suspenso,Natalia León,100,57,2020-12-11
+2021,Horizonte Azul,Aventura,Sergio Vega,95,920,2021-07-06
+2022,Cazadores del Sol,Fantasía,Patricia Cano,101,2080,2022-09-22
+2023,La Máquina del Tiempo,Ciencia Ficción,Marcos Ríos,98,188,2023-01-03
+2024,El Último Reflejo,Thriller,Claudia Ortega,97,430,2024-03-19
+2025,Imperio de Sombras,Acción,Héctor Lara,102,2145,2025-08-01
+2026,La Puerta Dorada,Fantasía,Ainhoa Vidal,99,610,2026-10-13
+2016,El Laberinto,Thriller,Jaime Salas,95,73,2016-04-06
+2017,Galaxia Perdida,Ciencia Ficción,Inés Romero,100,1910,2017-06-30
+2018,Corazón de Hielo,Drama,Luis Delgado,101,285,2018-09-18
+2019,La Guerra Invisible,Acción,Carla Núñez,98,1560,2019-11-08
+2020,El Faro,Suspenso,Guillermo Mora,96,134,2020-02-02
+2021,Reyes del Destino,Fantasía,Daniela Serrano,102,1735,2021-05-26
+2022,La Última Misión,Aventura,Ricardo Flores,97,490,2022-07-12
+2023,Silencio Mortal,Terror,Aurora Prieto,94,65,2023-10-31
+2024,El Horizonte Perdido,Ciencia Ficción,Fabián Castro,100,1980,2024-12-20
+2025,Ciudad Sin Ley,Acción,Elisa Rojas,99,375,2025-03-15
+2026,El Origen,Drama,Martín Vega,101,1040,2026-06-05
+2016,La Tempestad,Aventura,Camila León,98,880,2016-07-01
+2017,El Secreto del Mar,Fantasía,Bruno Navarro,95,1630,2017-09-09
+2018,Oscuridad Total,Terror,Valeria Iglesias,103,52,2018-12-27
+2019,Proyecto Alfa,Ciencia Ficción,Samuel Ortega,97,2050,2019-01-14
+2020,La Ciudad Perdida,Aventura,Andrea Vidal,99,670,2020-04-21
+2021,Sombras Eternas,Suspenso,Kevin Cruz,101,115,2021-08-30
+2022,La Corona de Fuego,Fantasía,Lorena Salas,96,1820,2022-10-07
+2023,El Código Negro,Thriller,Julián Peña,102,310,2023-02-22
+2024,Viaje al Vacío,Ciencia Ficción,Paula Ortega,98,2230,2024-05-11
+2025,La Última Batalla,Acción,Raquel Soto,100,1410,2025-07-29
+2026,El Jardín Oscuro,Drama,Gonzalo Ríos,97,87,2026-09-09
+2016,Tiempo de Cenizas,Suspenso,Isabel Flores,101,260,2016-11-05
+2017,La Dimensión Perdida,Ciencia Ficción,Enrique Lara,94,2120,2017-03-02
+2018,Corazón Salvaje II,Romance,Mónica Delgado,99,420,2018-05-16
+2019,La Fortaleza Negra,Acción,Rubén Serrano,102,1695,2019-08-25
+2020,El Umbral,Terror,Celia Vega,95,59,2020-10-18
+2021,La Ruta del Destino,Aventura,Tomás Gil,100,730,2021-12-02
+2022,Sombras de Acero,Ciencia Ficción,Gloria Castro,98,1930,2022-03-11
+2023,El Pacto Final,Thriller,Iván León,97,205,2023-06-14
+2024,La Isla del Tiempo,Fantasía,Nerea Campos,103,1490,2024-08-23
+2025,Operación Eclipse,Acción,Victor Rojas,96,2175,2025-10-10
+2026,El Silencio del Bosque,Drama,Susana Mora,99,142,2026-01-27
+2016,La Guerra Final,Acción,Pedro Vidal,100,1850,2016-03-30
+2017,El Horizonte Azul II,Aventura,Julia Santos,97,510,2017-06-11
+2018,La Torre Oscura,Fantasía,Cristóbal Ortega,95,1200,2018-09-01
+2019,Código Infinito II,Ciencia Ficción,Laura Ríos,101,2280,2019-12-19
+2020,El Eco Perdido,Suspenso,Mario Flores,98,95,2020-02-28
+2021,Destino de Fuego,Acción,Patricia León,102,1605,2021-04-10
+2022,La Luna Negra,Terror,Estela Navarro,94,71,2022-07-25
+2023,El Reino del Mar,Fantasía,Raúl Cano,99,1740,2023-10-04
+2024,Tiempo de Titanes,Ciencia Ficción,Sonia Gil,100,2115,2024-11-16
+2025,La Frontera Final,Aventura,Javier Soto,97,640,2025-01-08
+2026,Sombras del Futuro,Thriller,Ana Serrano,101,330,2026-05-20
