@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Gestión Empresarial</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 28px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+        }
+
+        header p {
+            margin: 0;
+            color: #cbd5e1;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .resumen {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 18px;
+            margin-bottom: 30px;
+        }
+
+        .tarjeta {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #0000000d;
+        }
+
+        .tarjeta h3 {
+            color: #64748b;
+            font-size: 14px;
+            margin: 0 0 12px;
+        }
+
+        .tarjeta p {
+            color: #2563eb;
+            font-size: 26px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .tabla-contenedor {
+            background: white;
+            padding: 22px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #0000000d;
+            overflow-x: auto;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 18px;
+            color: #0f172a;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 520px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 13px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        th {
+            background: #eff6ff;
+            color: #1d4ed8;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        tbody tr:hover {
+            background: #f8fafc;
+        }
+
+        .estado {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .activo {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .pendiente {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            main {
+                padding: 0 12px;
+            }
+
+            .tabla-contenedor {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Panel de Gestión Empresarial</h1>
+    <p>Resumen de resultados y actividad comercial · 2026</p>
+</header>
+
+<main>
+    <section class="resumen">
+        <div class="tarjeta">
+            <h3>Ventas totales</h3>
+            <p>245.800 €</p>
+        </div>
+        <div class="tarjeta">
+            <h3>Empleados</h3>
+            <p>48</p>
+        </div>
+        <div class="tarjeta">
+            <h3>Productos</h3>
+            <p>126</p>
+        </div>
+        <div class="tarjeta">
+            <h3>Clientes activos</h3>
+            <p>320</p>
+        </div>
+    </section>
+
+    <!-- TABLA 1: VENTAS MENSUALES -->
+    <section class="tabla-contenedor">
+        <h2>1. Ventas mensuales</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mes</th>
+                    <th>Ventas (€)</th>
+                    <th>Objetivo (€)</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Enero</td><td>18.500</td><td>17.000</td><td><span class="estado activo">Cumplido</span></td></tr>
+                <tr><td>Febrero</td><td>16.200</td><td>17.000</td><td><span class="estado pendiente">Pendiente</span></td></tr>
+                <tr><td>Marzo</td><td>22.400</td><td>20.000</td><td><span class="estado activo">Cumplido</span></td></tr>
+                <tr><td>Abril</td><td>19.800</td><td>19.000</td><td><span class="estado activo">Cumplido</span></td></tr>
+                <tr><td>Mayo</td><td>24.600</td><td>22.000</td><td><span class="estado activo">Cumplido</span></td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- TABLA 2: EMPLEADOS DEL AÑO -->
+    <section class="tabla-contenedor">
+        <h2>2. Empleados del año</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Empleado</th>
+                    <th>Departamento</th>
+                    <th>Ventas generadas</th>
+                    <th>Valoración</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Laura García</td><td>Comercial</td><td>45.200 €</td><td>Excelente</td></tr>
+                <tr><td>Carlos Martín</td><td>Marketing</td><td>38.700 €</td><td>Excelente</td></tr>
+                <tr><td>Ana López</td><td>Ventas</td><td>35.400 €</td><td>Muy buena</td></tr>
+                <tr><td>David Sánchez</td><td>Comercial</td><td>31.800 €</td><td>Muy buena</td></tr>
+                <tr><td>María Torres</td><td>Atención al cliente</td><td>28.500 €</td><td>Muy buena</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- TABLA 3: PRODUCTOS -->
+    <section class="tabla-contenedor">
+        <h2>3. Productos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Producto</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>P001</td><td>Portátil Pro</td><td>Informática</td><td>899 €</td><td>24</td></tr>
+                <tr><td>P002</td><td>Monitor HD</td><td>Accesorios</td><td>249 €</td><td>42</td></tr>
+                <tr><td>P003</td><td>Teclado inalámbrico</td><td>Accesorios</td><td>59 €</td><td>85</td></tr>
+                <tr><td>P004</td><td>Ratón ergonómico</td><td>Accesorios</td><td>35 €</td><td>60</td></tr>
+                <tr><td>P005</td><td>Tablet Air</td><td>Electrónica</td><td>499 €</td><td>18</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- TABLA 4: CLIENTES PRINCIPALES -->
+    <section class="tabla-contenedor">
+        <h2>4. Clientes principales</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Ciudad</th>
+                    <th>Compras realizadas</th>
+                    <th>Importe total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Tech Solutions S.L.</td><td>Madrid</td><td>24</td><td>32.500 €</td></tr>
+                <tr><td>Innovación Digital</td><td>Barcelona</td><td>18</td><td>27.800 €</td></tr>
+                <tr><td>Grupo Empresarial Norte</td><td>Zaragoza</td><td>15</td><td>21.400 €</td></tr>
+                <tr><td>Comercial Ibérica</td><td>Valencia</td><td>12</td><td>18.900 €</td></tr>
+                <tr><td>Servicios Globales</td><td>Sevilla</td><td>10</td><td>15.600 €</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- TABLA 5: REGIONES -->
+    <section class="tabla-contenedor">
+        <h2>5. Resultados por regiones</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Región</th>
+                    <th>Responsable</th>
+                    <th>Ventas (€)</th>
+                    <th>Clientes</th>
+                    <th>Cuota de ventas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Norte</td><td>Javier Ruiz</td><td>62.500</td><td>85</td><td>25,4 %</td></tr>
+                <tr><td>Sur</td><td>Elena Díaz</td><td>48.300</td><td>64</td><td>19,6 %</td></tr>
+                <tr><td>Este</td><td>Pedro Alonso</td><td>57.800</td><td>73</td><td>23,5 %</td></tr>
+                <tr><td>Oeste</td><td>Sofía Romero</td><td>35.200</td><td>42</td><td>14,3 %</td></tr>
+                <tr><td>Centro</td><td>Miguel Navarro</td><td>42.000</td><td>56</td><td>17,1 %</td></tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    Panel de Gestión Empresarial · Datos de ejemplo · 2026
+</footer>
+
+</body>
+</html>
